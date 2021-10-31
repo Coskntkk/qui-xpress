@@ -50,6 +50,11 @@ And open http://localhost:2112 to view it in the browser.
 * `--git` _[boolean]_ - Install dependencies option.
 * `-y` or `--yes` _[boolean]_ - Option to go with the default options.
 
+## Links
+
+* [ GitHub ]( https://github.com/Coskntkk/qui-xpress )
+* [ npm ]( https://www.npmjs.com/package/@dimaehor/qui-xpress )
+
 
 ## Lisence
 
