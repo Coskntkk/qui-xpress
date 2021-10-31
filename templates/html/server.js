@@ -10,13 +10,12 @@ const databaseName = "";
 mongoose.connect(`mongodb://localhost:27017/${databaseName}`, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  useFindAndModify: false,
 });
 
 // Document Schemas
 const defaultSchema = {
   name: String,
-  age: Numbner,
+  age: Number,
 }
 const Default = mongoose.model("Default", defaultSchema);
 

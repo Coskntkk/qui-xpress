@@ -9,7 +9,6 @@ Installing globally using npm:
 
 ```
 $ npm install -g @dimaehor/qui-xpress
-
 ```
 
 
@@ -20,21 +19,19 @@ Create an empty folder and go to it.
 ``` 
 $ mkdir myProject
 $ cd myProject
-
 ```
 
 Use qui-xpress to create your project files quickly.
 
 ``` 
-$ qui-xpress --yes
-
+$ qui-xpress
 ```
 
-After build, start app.
+After build, install dependencies and start app.
 
 ``` 
+$ npm i
 $ npm start
-
 ```
 
 And open http://localhost:2112 to view it in the browser.
